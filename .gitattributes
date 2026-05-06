@@ -1,0 +1,22 @@
+# Line endings: normalize to LF in the repo, native on checkout
+* text=auto eol=lf
+
+# Better diffs for markdown
+*.md diff=markdown
+
+# Binary hints (prevents accidental text munging)
+*.pdf  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.zip  binary
+
+# User-owned paths: on merges from upstream, keep the local version.
+# Protects filled-in assessments, notes, and milestone reviews from
+# being overwritten when curriculum updates land.
+#
+# Requires: git config --global merge.ours.driver true
+research/**     merge=ours
+milestones/**   merge=ours
+assessments/**  merge=ours

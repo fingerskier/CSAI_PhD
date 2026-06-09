@@ -66,12 +66,47 @@ Two subagents back the adversarial workflows: `examiner` (committee-style oral q
 
 ## How to use this repo
 
-1. Start with [`milestones/roadmap.md`](milestones/roadmap.md).
-2. Complete the diagnostic in [`assessments/diagnostic.md`](assessments/diagnostic.md).
-3. Work through core modules in [`curriculum/core/`](curriculum/core/).
-4. Maintain paper notes using [`templates/paper-note.md`](templates/paper-note.md).
-5. Complete replication and original research projects under [`research/`](research/).
-6. Use milestone reviews to decide when to advance phases.
+1. Create your own workspace from this template — see [`WORKSPACE_SETUP.md`](WORKSPACE_SETUP.md).
+2. Start with [`milestones/roadmap.md`](milestones/roadmap.md).
+3. Complete the diagnostic in [`assessments/diagnostic.md`](assessments/diagnostic.md).
+4. Work through core modules in [`curriculum/core/`](curriculum/core/).
+5. Maintain paper notes using [`templates/paper-note.md`](templates/paper-note.md).
+6. Complete replication and original research projects under [`research/`](research/).
+7. Use milestone reviews to decide when to advance phases.
+
+## Updating your workspace from upstream
+
+Your workspace is a copy of this template, with this repo tracked as the `upstream` remote so curriculum updates can flow in. One-time setup (full details in [`WORKSPACE_SETUP.md`](WORKSPACE_SETUP.md)):
+
+```bash
+git remote add upstream https://github.com/fingerskier/CSAI_PhD.git
+git config --global merge.ours.driver true   # activate the merge=ours rules in .gitattributes
+git config --global pull.rebase false        # see the warning below
+```
+
+When upstream publishes new modules, templates, or resources, pull them in with a merge:
+
+```bash
+git fetch upstream
+git merge upstream/main
+```
+
+The `merge=ours` rules in `.gitattributes` keep your filled-in work in `research/`, `milestones/`, and `assessments/` from being clobbered if upstream touches the same paths.
+
+> **Merge, never rebase.** Don't `git rebase upstream/main` and don't `git pull --rebase` from upstream. A rebase swaps the meaning of "ours", so the `merge=ours` rules keep *upstream's* side and silently discard your commits on protected paths — the rebase reports success, and your work is gone from history.
+
+To sync only the upstream-owned zones without merging anything else:
+
+```bash
+git fetch upstream
+git checkout upstream/main -- curriculum/ templates/ resources/
+git commit -m "Sync curriculum from upstream"
+```
+
+Two caveats, both by design:
+
+- Upstream-authored files inside your zones (`milestones/roadmap.md`, the `assessments/` masters) stop receiving upstream updates the first time you edit them — `merge=ours` keeps your version silently. See ["You touch it, you own it"](WORKSPACE_SETUP.md#you-touch-it-you-own-it) for how to view or take upstream's version manually.
+- If a merge surfaces a real conflict, resolve it by hand (`git status`, edit, `git add <file>`, `git merge --continue`); `git merge --abort` backs out.
 
 ## Important note
 

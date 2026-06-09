@@ -25,6 +25,7 @@ This program assumes the learner already has:
 
 ```text
 .
+├── .claude/                # Claude Code skills and agents for AI-augmented study
 ├── curriculum/             # Core, advanced, and specialization study modules
 ├── research/               # Reading lists, paper notes, replications, proposals
 ├── milestones/             # Year-by-year qualification and research milestones
@@ -33,6 +34,25 @@ This program assumes the learner already has:
 ├── resources/              # Books, courses, tools, datasets, conferences
 └── scripts/                # Optional helper scripts
 ```
+
+## AI-augmented study toolkit
+
+The repo ships with [Claude Code](https://code.claude.com/docs) skills that implement the AI-assisted workflow from the [roadmap](milestones/roadmap.md). Open the repo in Claude Code and invoke them as slash commands:
+
+| Skill | What it does |
+|---|---|
+| `/next` | Quick orientation: where you are in the program and the one thing to do next |
+| `/study <module>` | Guided study loop: explain → generate → attempt → critique → repair → transfer |
+| `/quiz <topic>` | Graduate-level problem sets with hidden rubrics and spaced re-attempts |
+| `/oral-exam <topic>` | Qualifying-exam simulation with adversarial probing and a verdict |
+| `/paper <title/link>` | Deep-read and interrogate a paper → structured note in `research/paper-notes/` |
+| `/replicate <paper>` | Scope and coach a replication project end to end |
+| `/lit-review <area>` | Literature mapping, clustered reading queues, open-problem hunting |
+| `/proposal <idea>` | Research proposal development with Heilmeier framing and red-teaming |
+| `/advisor` | Weekly planning, retrospectives, and phase-advancement reviews |
+| `/flashcards <topic>` | Spaced-repetition decks (SM-2) built from your error log and notes |
+
+Two subagents back the adversarial workflows: `examiner` (committee-style oral questioning) and `skeptical-reviewer` (conference-style review of your drafts). Conventions for all of this live in [`CLAUDE.md`](CLAUDE.md).
 
 ## Suggested timeline
 

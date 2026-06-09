@@ -19,9 +19,12 @@ The `.gitattributes` in this repo uses a `merge=ours` strategy on user-owned pat
 
 ```bash
 git config --global merge.ours.driver true
+git config --global pull.rebase false   # see "Merge, never rebase" below
 ```
 
 (`true` is the Unix command that always succeeds, which leaves the file unchanged on merge.)
+
+If you skip this step, nothing is lost — merges from upstream just fall back to normal conflict markers on files you've both edited, instead of quietly keeping your version.
 
 ## 3. Track upstream for curriculum updates
 
@@ -47,7 +50,21 @@ Treat the repo as two zones:
 
 Rule of thumb: if you find yourself editing inside an upstream zone, stop and copy the file into a user zone first (e.g. `templates/paper-note.md` → `research/papers/2025-attention-is-all-you-need.md`).
 
-## 5. Pull curriculum updates
+### You touch it, you own it
+
+A few upstream-authored documents live *inside* your zones — notably `milestones/roadmap.md` and the masters in `assessments/` (which you fill in place by design). They receive upstream updates only until the first time you edit them. After that, the `merge=ours` protection keeps your version **silently** — no conflict, no notice that upstream changed the file.
+
+This is intentional: your work directories are explicitly yours, and once you've written into a file, reconciling it with upstream changes is your responsibility. If you ever want to see what upstream did to a file you own:
+
+```bash
+git fetch upstream
+git diff HEAD upstream/main -- milestones/roadmap.md   # view their changes
+git checkout upstream/main -- milestones/roadmap.md    # take their version (discards yours!)
+```
+
+## 5. Pull curriculum updates — merge, never rebase
+
+> **Warning:** always **merge** upstream into your branch. Never `git rebase upstream/main` and never `git pull --rebase` from upstream. During a rebase, git swaps the meaning of "ours" — the `merge=ours` rules then keep *upstream's* side and **silently discard your commits** on protected paths: the rebase reports success, no conflict appears, and your work is gone from history. (The `pull.rebase false` config from step 2 guards the pull case.)
 
 When upstream publishes new modules, papers, or templates:
 

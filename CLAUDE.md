@@ -15,6 +15,7 @@ Per `WORKSPACE_SETUP.md`, the repo splits into zones:
 
 - **Upstream-owned (don't edit in learner workspaces):** `curriculum/`, `templates/`, `resources/`. Templates get *copied* into user zones, never filled in place. In the canonical template repo itself, editing these is fine.
 - **Learner-owned:** `research/` (paper notes, replications, proposals, error logs, decks), `milestones/` (progress tracking), `assessments/` (filled-in exams).
+- **You touch it, you own it:** upstream-authored docs inside learner zones (`milestones/roadmap.md`, the `assessments/` masters) stop receiving upstream updates once the learner edits them — `merge=ours` keeps the local version silently. This is intentional. Never rebase onto upstream; it inverts `merge=ours` and silently discards learner work (see `WORKSPACE_SETUP.md`).
 
 File-naming conventions: paper notes `research/paper-notes/YYYY-short-title.md`; proposals `research/proposals/YYYY-MM-short-name.md`; decks `research/decks/<topic>.md`.
 

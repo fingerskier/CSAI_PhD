@@ -22,6 +22,7 @@ File-naming conventions: paper notes `research/paper-notes/YYYY-short-title.md`;
 
 | Skill | Purpose |
 |---|---|
+| `/next` | Two-minute orientation: read workspace state, surface due re-attempts, recommend one next action |
 | `/study` | Structured study-loop session on a module/topic (explain → generate → attempt → critique → repair → transfer) |
 | `/quiz` | Graduate problem sets with hidden rubrics and spaced re-attempts |
 | `/oral-exam` | Qualifying-exam / defense simulation with verdict |

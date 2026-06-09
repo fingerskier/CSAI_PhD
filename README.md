@@ -41,6 +41,7 @@ The repo ships with [Claude Code](https://code.claude.com/docs) skills that impl
 
 | Skill | What it does |
 |---|---|
+| `/next` | Quick orientation: where you are in the program and the one thing to do next |
 | `/study <module>` | Guided study loop: explain → generate → attempt → critique → repair → transfer |
 | `/quiz <topic>` | Graduate-level problem sets with hidden rubrics and spaced re-attempts |
 | `/oral-exam <topic>` | Qualifying-exam simulation with adversarial probing and a verdict |

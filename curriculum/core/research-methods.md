@@ -59,3 +59,7 @@ The craft of research itself: reading critically, designing experiments that can
 - [ ] Has completed a replication whose report a stranger could rerun from a clean environment.
 - [ ] Can write a related-work section that positions a contribution rather than listing citations.
 - [ ] Can articulate their own taste: what makes a problem worth 12 weeks, and what kill criteria look like.
+
+## Where next
+
+This module doesn't end — it runs through every advanced module's paper critiques and projects. [Human-Computer Interaction](../advanced/human-computer-interaction.md) deepens the experimental-design and statistics thread into human-subjects research.

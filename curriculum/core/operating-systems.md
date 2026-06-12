@@ -54,3 +54,7 @@ Graduate OS: the three pillars (virtualization, concurrency, persistence) studie
 - [ ] Can choose and justify a locking strategy, including memory-ordering considerations.
 - [ ] Can argue both sides of a kernel-structure debate with evidence from the literature.
 - [ ] Can connect the topic to current research (io_uring/kernel-bypass, eBPF, verified systems, unikernels).
+
+## Where next
+
+Virtualization and isolation scale out in [Cloud, Edge, and Distributed Infrastructure](../advanced/cloud-edge-infrastructure.md); the seL4 thread continues in [Formal Methods and Verification](../advanced/formal-methods.md).

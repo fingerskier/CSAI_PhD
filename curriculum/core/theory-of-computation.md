@@ -55,3 +55,7 @@ Computability and complexity: what can be computed at all, what can be computed 
 - [ ] Can state the hierarchy theorems and the relativization/natural-proofs barriers and what they imply about proof strategies.
 - [ ] Can explain the PCP theorem's statement and derive one inapproximability consequence.
 - [ ] Can connect the topic to current research (fine-grained complexity/SETH, meta-complexity, quantum supremacy claims, proof complexity).
+
+## Where next
+
+[Cryptography and Security](../advanced/cryptography-security.md) builds on hardness assumptions, [Randomized Algorithms](../advanced/randomized-algorithms.md) develops the BPP/derandomization story, and [Advanced Algorithms](../advanced/advanced-algorithms.md) picks up fine-grained complexity.

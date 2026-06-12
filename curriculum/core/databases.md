@@ -57,3 +57,7 @@ Database internals and the architecture of data systems: storage engines, query 
 - [ ] Can walk ARIES recovery (analysis/redo/undo) over a concrete log.
 - [ ] Can argue row-store vs. column-store vs. LSM for a workload with amplification numbers.
 - [ ] Can connect the topic to current research (learned indexes/optimizers, disaggregation, vector search, streaming SQL).
+
+## Where next
+
+[Cloud, Edge, and Distributed Infrastructure](../advanced/cloud-edge-infrastructure.md) continues the storage-at-scale and disaggregation threads beyond a single engine.

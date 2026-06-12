@@ -57,3 +57,7 @@ Graduate-level algorithm design and analysis: the toolbox (divide and conquer, d
 - [ ] Can model a problem as flow/matching/LP and use duality to certify optimality.
 - [ ] Can state approximation guarantees and prove a simple ratio (e.g. 2-approx vertex cover, greedy set cover).
 - [ ] Can connect the topic to current research (fine-grained complexity, smoothed analysis, learned data structures).
+
+## Where next
+
+[Advanced Algorithms](../advanced/advanced-algorithms.md) and [Randomized Algorithms](../advanced/randomized-algorithms.md) continue this module to the research frontier; [Cryptography and Security](../advanced/cryptography-security.md) turns hardness from an obstacle into a tool.

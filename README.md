@@ -70,9 +70,10 @@ Two subagents back the adversarial workflows: `examiner` (committee-style oral q
 2. Start with [`milestones/roadmap.md`](milestones/roadmap.md).
 3. Complete the diagnostic in [`assessments/diagnostic.md`](assessments/diagnostic.md).
 4. Work through core modules in [`curriculum/core/`](curriculum/core/).
-5. Maintain paper notes using [`templates/paper-note.md`](templates/paper-note.md).
-6. Complete replication and original research projects under [`research/`](research/).
-7. Use milestone reviews to decide when to advance phases.
+5. In Phase 2, pick advanced modules from [`curriculum/advanced/`](curriculum/advanced/) and a track from [`curriculum/specializations/`](curriculum/specializations/).
+6. Maintain paper notes using [`templates/paper-note.md`](templates/paper-note.md).
+7. Complete replication and original research projects under [`research/`](research/).
+8. Use milestone reviews to decide when to advance phases.
 
 ## Updating your workspace from upstream
 

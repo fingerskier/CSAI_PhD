@@ -55,3 +55,7 @@ The working mathematical toolkit for graduate CS: linear algebra, probability an
 - [ ] Can design an experiment with correct statistical reporting and spot p-hacking in others'.
 - [ ] Can use entropy/KL/mutual information correctly in an argument (e.g. lower bounds, loss functions).
 - [ ] Can connect the topic to current research (e.g. why Adam ≠ SGD convergence theory, conformal prediction, matrix concentration in deep learning theory).
+
+## Where next
+
+The probability toolkit sharpens into [Randomized Algorithms](../advanced/randomized-algorithms.md), the statistics and optimization feed [Advanced Machine Learning](../advanced/advanced-machine-learning.md), and the numerical linear algebra grows into [Scientific Computing](../advanced/scientific-computing.md).

@@ -40,4 +40,5 @@ Subagents: `examiner` (adversarial committee questioning) and `skeptical-reviewe
 
 - `milestones/roadmap.md` — the operational spine: phases, weekly structure, AI-assisted study loop, thresholds (mastery ≥85% over 3 spaced attempts), exit criteria.
 - `curriculum/core/` — the ten breadth modules; each defines objectives, resources, seminal papers, assignments, and a mastery checklist that the skills key off.
+- `curriculum/advanced/` — the Phase 2 modules, same structure as core, chosen à la carte (2–4 per specialization); the `curriculum/specializations/` tracks list which ones support them.
 - `assessments/breadth-exam.md` and `assessments/rubrics.md` — the grading standards.

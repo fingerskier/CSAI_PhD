@@ -11,6 +11,14 @@
 - Safe learning and verification
 - Cyber-physical systems
 
+## Supporting advanced modules
+
+- [Robotics and Control](../../advanced/robotics-control.md)
+- [Reinforcement Learning](../../advanced/reinforcement-learning.md)
+- [Formal Methods and Verification](../../advanced/formal-methods.md) — safe learning and verification
+- [Computer Vision](../../advanced/computer-vision.md) — perception for autonomy
+- [Scientific Computing](../../advanced/scientific-computing.md) — simulation and system identification
+
 ## Milestones
 
 - [ ] Refresh signals, systems, and control theory.

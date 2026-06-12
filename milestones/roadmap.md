@@ -143,6 +143,7 @@ For each core module:
 
 ### Objectives
 
+- Complete 2–4 advanced modules from `curriculum/advanced/`, chosen to support your intended specialization.
 - Read 75–150 research papers.
 - Reproduce 2–3 important papers.
 - Write critical surveys in at least two areas.

@@ -20,11 +20,12 @@ Advanced modules deepen research maturity after the core phase. Unlike the core 
 ### Systems and applications
 10. [Robotics and Control](robotics-control.md)
 11. [High-Performance Computing](high-performance-computing.md)
-12. [Cloud, Edge, and Distributed Infrastructure](cloud-edge-infrastructure.md)
-13. [Human-Computer Interaction](human-computer-interaction.md)
-14. [Scientific Computing](scientific-computing.md)
+12. [Computer Networks](computer-networks.md)
+13. [Cloud, Edge, and Distributed Infrastructure](cloud-edge-infrastructure.md)
+14. [Human-Computer Interaction](human-computer-interaction.md)
+15. [Scientific Computing](scientific-computing.md)
 
-Each module follows the same structure as the [core modules](../core/README.md): learning objectives, prerequisites, primary resources, seminal papers, assignments (problem sets + an implementation project + a portfolio + a paper critique), an AI study loop, and a mastery checklist.
+Each module follows the same structure as the [core modules](../core/README.md): learning objectives, prerequisites, primary resources, seminal papers, assignments (problem sets, projects, and a paper critique), an AI study loop, and a mastery checklist.
 
 ## How to work an advanced module
 

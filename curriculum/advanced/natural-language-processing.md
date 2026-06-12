@@ -1,10 +1,11 @@
 # Natural Language Processing
 
-Computational modeling of language, from its linguistic and statistical foundations to the transformer-based large language models that now dominate. The module spans representation (embeddings, attention), the pretraining/adaptation paradigm, evaluation and its pitfalls, and the open problems — reasoning, factuality, alignment — that define current research. Emphasis on understanding *mechanisms*, not just calling APIs.
+Computational modeling of language, from its linguistic and statistical foundations to the transformer-based large language models that now dominate. The module spans representation (embeddings, attention), the pretraining/adaptation paradigm, evaluation and its pitfalls, and the open problems — reasoning, factuality, alignment — that define current research. Emphasis on understanding *mechanisms*, not just calling APIs. Speech processing is deliberately out of scope; Jurafsky & Martin covers it if your research needs it.
 
 ## Learning objectives
 
 - Explain the progression from n-grams and log-linear models to neural LMs, and the representational ideas (distributional semantics, word/contextual embeddings) underneath.
+- Work the classical algorithmic backbone — HMMs and CRFs, Viterbi decoding, CKY parsing, sequence labeling as structured prediction — and know when it still beats end-to-end neural models.
 - Derive the transformer architecture — self-attention, positional encoding, multi-head structure — and explain why it displaced recurrence.
 - Reason about the pretraining/fine-tuning/alignment pipeline: objectives, scaling laws, instruction tuning, RLHF, and parameter-efficient adaptation.
 - Critically evaluate NLP systems: benchmark design, contamination, metric validity, and the difference between capability and the appearance of it.
@@ -13,7 +14,7 @@ Computational modeling of language, from its linguistic and statistical foundati
 ## Prerequisites
 
 - [Machine Learning Foundations](../core/machine-learning.md) — neural networks, training, embeddings.
-- Helpful: [Deep Learning Systems](deep-learning-systems.md) for the systems side of large models.
+- Helpful: [Deep Learning Systems](deep-learning-systems.md) for the systems side of large models, and [Reinforcement Learning](reinforcement-learning.md) for the mechanics behind RLHF (taught there, used here).
 
 ## Primary resources
 
@@ -50,6 +51,7 @@ Computational modeling of language, from its linguistic and statistical foundati
 
 ## Mastery checklist
 
+- [ ] Can derive Viterbi decoding and run CKY parsing on a small grammar.
 - [ ] Can derive self-attention and explain multi-head structure and positional encoding.
 - [ ] Can explain the pretraining→instruction-tuning→RLHF pipeline and what each stage changes.
 - [ ] Can state scaling laws and their compute-optimal implications.

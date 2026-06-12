@@ -4,9 +4,10 @@ Getting physical systems to act intelligently in the world: the dynamics and con
 
 ## Learning objectives
 
+- Model manipulator kinematics — forward/inverse kinematics, Jacobians, and configuration space — as the substrate that planning and control operate on.
 - Model dynamical systems (state-space, rigid-body dynamics) and analyze stability via Lyapunov theory and linear-systems tools.
 - Design feedback controllers (PID, LQR, LQG) and reason about controllability, observability, and robustness.
-- Perform state estimation under uncertainty with the Kalman filter family and particle filters; explain the estimation/control duality.
+- Perform state estimation under uncertainty with the Kalman filter family and particle filters; explain the estimation/control duality and how filters compose into SLAM (SLAM lives in this module, with [Computer Vision](computer-vision.md) supplying the visual front end).
 - Formulate and solve motion-planning problems (sampling-based planners, trajectory optimization) and model-predictive control.
 - Situate learning-based control (imitation learning, sim-to-real, RL for control) against classical guarantees, and reason about safety.
 
@@ -26,8 +27,9 @@ Getting physical systems to act intelligently in the world: the dynamics and con
 ## Seminal papers
 
 - Kalman (1960), "A New Approach to Linear Filtering and Prediction Problems."
-- LaValle & Kuffner (2001), "Randomized Kinematic Planning" / RRT.
+- LaValle & Kuffner (2001), "Randomized Kinodynamic Planning" — RRTs.
 - Kavraki et al. (1996), "Probabilistic Roadmaps for Path Planning in High-Dimensional Configuration Spaces."
+- Durrant-Whyte & Bailey (2006), "Simultaneous Localization and Mapping: Part I" — the SLAM tutorial.
 - Todorov, Erez & Tassa (2012), "MuJoCo: A Physics Engine for Model-Based Control."
 - Levine et al. (2016), "End-to-End Training of Deep Visuomotor Policies."
 - Pomerleau (1989), "ALVINN" / Ross, Gordon & Bagnell (2011), "DAgger" — imitation learning.
@@ -49,6 +51,7 @@ Getting physical systems to act intelligently in the world: the dynamics and con
 
 ## Mastery checklist
 
+- [ ] Can derive forward/inverse kinematics and the Jacobian for a simple manipulator.
 - [ ] Can analyze stability via Lyapunov functions and check controllability/observability.
 - [ ] Can derive and implement an LQR controller and a Kalman/EKF estimator.
 - [ ] Can formulate and solve a trajectory-optimization or MPC problem.

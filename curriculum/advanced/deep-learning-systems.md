@@ -8,12 +8,14 @@ The engineering substrate of modern deep learning: automatic differentiation and
 - Reason about the accelerator memory hierarchy, arithmetic intensity, and the roofline model; explain why an op is compute- vs memory-bound.
 - Compare distributed-training strategies (data, tensor, pipeline, ZeRO/sharded, mixture-of-experts) and analyze their communication and memory costs.
 - Apply systems techniques for efficiency: mixed precision, activation checkpointing, fused/flash attention, quantization, and KV-cache management.
+- Explain what ML compilers (TVM, XLA, Triton) optimize — operator fusion, memory layout, kernel scheduling — and when compiled kernels beat hand-written ones.
 - Design an inference-serving stack: batching, paged attention, speculative decoding, and the latency/throughput frontier.
 
 ## Prerequisites
 
 - [Computer Architecture](../core/computer-architecture.md) — memory hierarchy, parallelism, performance modeling.
 - [Machine Learning Foundations](../core/machine-learning.md) — backprop and the training loop.
+- Note: GPU programming and roofline analysis are shared ground with [High-Performance Computing](high-performance-computing.md) — if you've done that module, skim those units here.
 
 ## Primary resources
 

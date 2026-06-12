@@ -6,6 +6,7 @@ Mathematically proving systems correct rather than testing them into submission:
 
 - Specify system properties precisely in temporal logic (LTL, CTL) and as pre/postcondition contracts; distinguish safety from liveness.
 - Run and reason about model checking — explicit-state, symbolic (BDD), and bounded (SAT/SMT) — and the abstraction techniques (CEGAR, predicate abstraction) that fight state explosion.
+- Explain abstract interpretation — Galois connections, soundness, widening — as the foundation of static analysis and the theory behind predicate abstraction.
 - Prove programs correct with Hoare logic and separation logic, including loop invariants and reasoning about the heap and concurrency.
 - Use SMT solvers as a verification backend and understand the DPLL(T) architecture and core theories.
 - Construct machine-checked proofs in a proof assistant (Coq/Lean/Isabelle) and articulate the trusted computing base.
@@ -22,12 +23,14 @@ Mathematically proving systems correct rather than testing them into submission:
 - **Huth & Ryan, *Logic in Computer Science*** — temporal logic and proof systems.
 - **Bradley & Manna, *The Calculus of Computation*** — SMT and decision procedures.
 - **Appel, *Verified Functional Algorithms* / VST**, and **Concrete Semantics** (Isabelle) for the deductive track.
+- **Lamport, *Specifying Systems*** (free online) and **Holzmann's Spin documentation** — the TLA+/Spin tooling for the model-checking project.
 
 ## Seminal papers
 
 - Hoare (1969), "An Axiomatic Basis for Computer Programming."
 - Clarke & Emerson (1981) and Queille & Sifakis (1982) — the birth of model checking (CTL).
 - Pnueli (1977), "The Temporal Logic of Programs."
+- Cousot & Cousot (1977), "Abstract Interpretation: A Unified Lattice Model for Static Analysis of Programs by Construction or Approximation of Fixpoints."
 - Burch, Clarke, McMillan et al. (1992), "Symbolic Model Checking: 10^20 States and Beyond."
 - Reynolds (2002), "Separation Logic: A Logic for Shared Mutable Data Structures."
 - Biere et al. (1999), "Symbolic Model Checking without BDDs" — bounded model checking via SAT.
@@ -54,5 +57,6 @@ Mathematically proving systems correct rather than testing them into submission:
 - [ ] Can find a loop invariant and complete a Hoare-logic proof for an unseen program.
 - [ ] Can reason about heap and concurrency with separation logic.
 - [ ] Can explain how a model checker fights state explosion (symbolic, BMC, CEGAR, abstraction).
+- [ ] Can explain abstract interpretation (Galois connections, widening) and argue why an analysis is sound.
 - [ ] Can build a machine-checked proof in a proof assistant and state its trusted base.
 - [ ] Can connect the topic to current research (verified systems software, SMT-based program synthesis, neural-network verification).

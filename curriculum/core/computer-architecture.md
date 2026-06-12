@@ -58,3 +58,7 @@ Quantitative computer architecture: how modern processors actually execute code 
 - [ ] Can state what TSO guarantees, what it doesn't, and where fences are required.
 - [ ] Can explain Spectre's mechanism and why mitigation is hard.
 - [ ] Can connect the topic to current research (chiplets, CXL, processing-in-memory, open ISAs, accelerator co-design).
+
+## Where next
+
+[High-Performance Computing](../advanced/high-performance-computing.md) turns the quantitative method loose on parallel machines; [Deep Learning Systems](../advanced/deep-learning-systems.md) applies it to the accelerator stack the DSA chapter previews.

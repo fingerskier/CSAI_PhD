@@ -58,3 +58,7 @@ Graduate ML in three layers: statistical learning theory (why learning is possib
 - [ ] Can choose between classical and deep methods for a dataset and defend the choice with evidence.
 - [ ] Can design a leak-free, seed-honest experiment and detect a flawed one in a paper.
 - [ ] Can connect the topic to current research (scaling laws, alignment, in-context learning theories, state-space models).
+
+## Where next
+
+Each layer deepens in Phase 2: [Advanced Machine Learning](../advanced/advanced-machine-learning.md) (theory and probabilistic methods), [Deep Learning Systems](../advanced/deep-learning-systems.md) (the training/serving stack), and the application tracks — [Reinforcement Learning](../advanced/reinforcement-learning.md), [Natural Language Processing](../advanced/natural-language-processing.md), and [Computer Vision](../advanced/computer-vision.md).

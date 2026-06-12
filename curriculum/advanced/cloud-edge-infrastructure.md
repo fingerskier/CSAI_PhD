@@ -14,16 +14,19 @@ The systems that run modern computing at scale: virtualization and containers, r
 
 - [Operating Systems](../core/operating-systems.md) — virtualization, scheduling, isolation.
 - [Distributed Systems](../core/distributed-systems.md) — consensus, replication, consistency.
+- Helpful: [Computer Networks](computer-networks.md) for the datacenter fabric underneath.
 
 ## Primary resources
 
 - **Beyer et al., *Site Reliability Engineering*** (free online) — the operational/reliability spine.
 - **Kleppmann, *Designing Data-Intensive Applications*** — the storage/consistency backbone (shared with databases).
 - **Burns et al., *Kubernetes: Up and Running* / *Designing Distributed Systems*** — orchestration patterns.
-- **MIT 6.5840 (Distributed Systems)** labs — Raft and a fault-tolerant KV store, the applied core.
+- **Barroso, Clidaras & Hölzle, *The Datacenter as a Computer*** (free online) — warehouse-scale design.
 - **The AWS / Google Cloud architecture and well-architected docs** — real-world reference designs.
 
 ## Seminal papers
+
+GFS, MapReduce, and Dynamo reappear from [Distributed Systems](../core/distributed-systems.md) — re-read them here through the operational lens (utilization, multi-tenancy, cost) rather than the consistency lens.
 
 - Ghemawat, Gobioff & Leung (2003), "The Google File System."
 - Dean & Ghemawat (2004), "MapReduce: Simplified Data Processing on Large Clusters."
@@ -31,13 +34,13 @@ The systems that run modern computing at scale: virtualization and containers, r
 - DeCandia et al. (2007), "Dynamo: Amazon's Highly Available Key-Value Store."
 - Verma et al. (2015), "Large-Scale Cluster Management at Google with Borg."
 - Hindman et al. (2011), "Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center."
-- Barroso, Clidaras & Hölzle, *The Datacenter as a Computer* (free online) — warehouse-scale design.
+- Satyanarayanan (2017), "The Emergence of Edge Computing."
 - Jonas et al. (2019), "Cloud Programming Simplified: A Berkeley View on Serverless Computing."
 
 ## Assignments
 
 - **Problem sets:** weekly — one scheduling/bin-packing analysis, one consistency/availability trade-off case study, one capacity/SLO calculation.
-- **Implementation project:** build a fault-tolerant replicated service (e.g. the 6.5840 Raft-backed KV store), then deploy a small service on Kubernetes with health checks, autoscaling, and observability.
+- **Implementation project:** take the replicated KV store you built in [Distributed Systems](../core/distributed-systems.md) (or another non-trivial service) and productionize it — containerize it, deploy on Kubernetes with health checks, autoscaling, and observability, then add an edge-facing tier (cache/CDN or serverless function) and measure the latency and consistency consequences.
 - **Reliability study:** define SLOs and an error budget for a service, design its observability, and run a failure-injection (chaos) exercise documenting how the system degrades.
 - **Paper critique:** deep-read Dynamo or Borg via `/paper` — interrogate the consistency/availability or utilization/isolation trade-offs they chose.
 

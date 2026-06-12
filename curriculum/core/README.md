@@ -24,7 +24,10 @@ Each module contains:
 - Assignments — problem sets, implementation projects, and paper critiques
 - AI study loop — which Claude skills (`/study`, `/quiz`, `/oral-exam`, …) to use and how
 - Mastery checklist — the concrete bar for the breadth exam
+- Where next — the advanced modules that continue the thread after the core
 
 ## How to work a module
 
 Follow the four-pass model from [`milestones/roadmap.md`](../../milestones/roadmap.md): a **foundation pass** through the primary resources, a **problem pass** with weekly timed sets (`/quiz`), a **build pass** through the implementation project, and a **defense pass** (`/oral-exam`) against the mastery checklist. Advance when you meet the roadmap's thresholds — ≥85% across three spaced attempts, plus one strong artifact.
+
+After the core, continue into the [advanced curriculum](../advanced/README.md) — chosen à la carte to support your [specialization](../specializations/README.md).

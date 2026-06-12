@@ -14,6 +14,7 @@ Sequential decision-making under uncertainty: the MDP formalism and dynamic prog
 
 - [Machine Learning Foundations](../core/machine-learning.md) — function approximation, SGD.
 - [Mathematics for CS Research](../core/math-for-cs.md) — probability, optimization; dynamic programming.
+- Note: core ML's RL unit (Sutton & Barto ch. 1–10, DQN) is the on-ramp; this module assumes it and owns the depth — including the RLHF mechanism the NLP module uses.
 
 ## Primary resources
 

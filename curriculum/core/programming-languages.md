@@ -57,3 +57,7 @@ Two intertwined tracks: the *theory* of languages (semantics, type systems, veri
 - [ ] Can build a working optimizing compiler and demonstrate each pass's effect on real code.
 - [ ] Can compare GC strategies with workload-dependent tradeoffs, not slogans.
 - [ ] Can connect the topic to current research (verification at scale, effect systems, ML-for-compilers, WASM as a universal target).
+
+## Where next
+
+[Formal Methods and Verification](../advanced/formal-methods.md) continues the semantics → Hoare logic → CompCert thread into machine-checked proofs of real systems.

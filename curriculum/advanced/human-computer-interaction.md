@@ -1,6 +1,6 @@
 # Human-Computer Interaction
 
-The empirical and design discipline at the boundary between people and systems: how to study users rigorously, how to design and prototype interfaces, how to evaluate them with valid methods and statistics, and how the field is being reshaped by AI-mediated interaction. For a CS researcher, the core skill is treating interaction as an object of *scientific* study — hypotheses, controlled experiments, and honest measurement of human behavior.
+The empirical and design discipline at the boundary between people and systems: how to study users rigorously, how to design and prototype interfaces, how to evaluate them with valid methods and statistics, and how the field is being reshaped by AI-mediated interaction. For a CS researcher, the core skill is treating interaction as an object of *scientific* study — hypotheses, controlled experiments, and honest measurement of human behavior. Adjacent subfields — CSCW/social computing and information visualization — are sampled via the CHI proceedings here rather than treated as full units.
 
 ## Learning objectives
 
@@ -32,7 +32,7 @@ The empirical and design discipline at the boundary between people and systems: 
 - Weiser (1991), "The Computer for the 21st Century" — ubiquitous computing.
 - Amershi et al. (2019), "Guidelines for Human-AI Interaction."
 - Bansal et al. (2021), "Does the Whole Exceed Its Parts? The Effect of AI Explanations on Complementary Team Performance."
-- Gajos & Weld (2004) / mixed-initiative work (Horvitz, 1999), "Principles of Mixed-Initiative User Interfaces."
+- Horvitz (1999), "Principles of Mixed-Initiative User Interfaces."
 
 ## Assignments
 

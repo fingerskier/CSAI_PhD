@@ -6,7 +6,7 @@ The theory and modern practice beyond a first ML course: statistical learning th
 
 - State and use generalization bounds (VC dimension, Rademacher complexity, PAC-Bayes, uniform convergence) and explain the modern puzzle they don't resolve (double descent, interpolation).
 - Work fluently with kernels and the RKHS view; connect to Gaussian processes and the neural tangent kernel.
-- Build probabilistic models and perform approximate inference (variational inference, MCMC, the EM algorithm) with calibrated uncertainty.
+- Build probabilistic models — including graphical models and message passing — and perform approximate inference (variational inference, MCMC, the EM algorithm) with calibrated uncertainty.
 - Analyze the optimization landscape of non-convex learning: SGD dynamics, implicit regularization, and why over-parameterized models generalize.
 - Reason about representation learning and self-supervision as the organizing principle of modern ML.
 
@@ -22,7 +22,7 @@ The theory and modern practice beyond a first ML course: statistical learning th
 - **Murphy, *Probabilistic Machine Learning* (Vols I–II)** — the probabilistic modeling reference.
 - **Bishop, *Pattern Recognition and Machine Learning*** — kernels, EM, variational inference.
 - **Rasmussen & Williams, *Gaussian Processes for Machine Learning*** (free online).
-- **CMU 10-715 / Stanford STATS214 (Theory of ML)** — lectures and problem sets.
+- **CMU 10-716 (Advanced ML: Theory and Methods) / Stanford STATS214 (Machine Learning Theory)** — lectures and problem sets.
 
 ## Seminal papers
 

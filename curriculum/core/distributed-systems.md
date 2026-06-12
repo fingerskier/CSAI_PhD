@@ -57,3 +57,7 @@ The theory and engineering of systems that span machines: time and ordering, fau
 - [ ] Can place a new system on the consistency/availability/latency map from its design description.
 - [ ] Can design fault-injection tests that would expose a given protocol bug.
 - [ ] Can connect the topic to current research (CRDTs, deterministic databases, cloud disaggregation, Byzantine consensus in blockchains).
+
+## Where next
+
+[Cloud, Edge, and Distributed Infrastructure](../advanced/cloud-edge-infrastructure.md) is the applied continuation; [Computer Networks](../advanced/computer-networks.md) covers the layer underneath; [Deep Learning Systems](../advanced/deep-learning-systems.md) applies the same replication and communication reasoning to large-model training.

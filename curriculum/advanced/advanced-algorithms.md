@@ -14,6 +14,7 @@ Modern algorithmic paradigms past the core toolbox: spectral and continuous meth
 
 - [Algorithms and Complexity](../core/algorithms-complexity.md) — reductions, randomized analysis, LP duality, approximation basics.
 - Linear algebra and spectral theory (see [Mathematics for CS Research](../core/math-for-cs.md)); comfort with probabilistic concentration.
+- Note: the core module already touched 6.5210 and basic approximation (Goemans–Williamson, LSH) — skip what you've mastered; the new ground here is streaming, spectral methods, online primal-dual, and fine-grained complexity.
 
 ## Primary resources
 

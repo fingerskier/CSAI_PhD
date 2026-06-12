@@ -14,6 +14,7 @@ Randomness as a first-class algorithmic resource: the probabilistic method, conc
 
 - [Algorithms and Complexity](../core/algorithms-complexity.md) and [Mathematics for CS Research](../core/math-for-cs.md) — discrete probability, linear algebra, proof technique.
 - Comfort with eigenvalues and basic measure-free probability.
+- Note: core covered linearity of expectation, basic Chernoff, and Karger's min-cut — this module assumes them and goes deeper (LLL, mixing times, derandomization).
 
 ## Primary resources
 

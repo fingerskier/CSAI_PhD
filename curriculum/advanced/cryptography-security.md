@@ -6,7 +6,8 @@ Provable security from the ground up: the reduction-based definitions and proofs
 
 - State precise security definitions (IND-CPA/CCA, EUF-CMA, semantic security, simulation-based security) and prove constructions secure via reductions to hardness assumptions.
 - Reason about the foundations: one-way functions, hardcore bits, PRGs/PRFs, and the equivalences between them.
-- Construct and analyze public-key primitives (RSA/ElGamal, hybrid encryption, signatures) and explain the role of the random-oracle model and its limits.
+- Construct and analyze the symmetric world — block ciphers and modes of operation, hash functions, MACs, and authenticated encryption — and explain how misuse (ECB, nonce reuse, MAC-then-encrypt) breaks it.
+- Construct and analyze public-key primitives (RSA/ElGamal, elliptic-curve groups, hybrid encryption, signatures) and explain the role of the random-oracle model and its limits.
 - Explain zero-knowledge proofs, commitment, secret sharing, and secure multiparty computation at the protocol level.
 - Assess post-quantum cryptography — lattice problems (LWE/SIS), and the assumptions Shor's algorithm breaks.
 - Threat-model real systems and reason about side channels, protocol failures, and the gap between proof and deployment.
@@ -29,6 +30,7 @@ Provable security from the ground up: the reduction-based definitions and proofs
 - Diffie & Hellman (1976), "New Directions in Cryptography."
 - Rivest, Shamir & Adleman (1978), "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems."
 - Goldwasser & Micali (1984), "Probabilistic Encryption" — semantic security; the definitional turn.
+- Thompson (1984), "Reflections on Trusting Trust" — the systems-security counterweight in one lecture.
 - Goldwasser, Micali & Rackoff (1989), "The Knowledge Complexity of Interactive Proof Systems" — zero-knowledge.
 - Yao (1986), "How to Generate and Exchange Secrets" — garbled circuits / secure computation.
 - Bellare & Rogaway (1993), "Random Oracles Are Practical."
@@ -54,6 +56,7 @@ Provable security from the ground up: the reduction-based definitions and proofs
 - [ ] Can write a precise security definition as a game and explain the adversary's powers.
 - [ ] Can prove a construction secure by reduction, accounting for the security loss.
 - [ ] Can explain the random-oracle model and articulate a concrete criticism of it.
+- [ ] Can choose and justify symmetric modes of operation and explain exactly what nonce reuse or a padding oracle breaks.
 - [ ] Can describe a zero-knowledge or MPC protocol and argue its security properties.
 - [ ] Can state LWE/SIS and explain why these underpin post-quantum schemes.
 - [ ] Can connect the topic to current research (FHE, succinct proofs/zk-SNARKs, post-quantum standardization).

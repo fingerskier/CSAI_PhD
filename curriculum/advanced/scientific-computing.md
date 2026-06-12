@@ -8,7 +8,7 @@ The numerical methods that turn continuous mathematics into reliable computation
 - Apply numerical linear algebra: direct and iterative solvers, least squares, eigenvalue methods, and the role of conditioning and preconditioning.
 - Solve ODEs and PDEs numerically (finite difference/element/volume), and analyze stability (CFL), consistency, and convergence.
 - Use numerical optimization, quadrature, interpolation, and root-finding with attention to convergence rates and cost.
-- Build a credible simulation/modeling pipeline: verification, validation, and uncertainty quantification — knowing when to trust the output.
+- Build a credible simulation/modeling pipeline: verification, validation, and uncertainty quantification (including Monte Carlo sampling) — knowing when to trust the output.
 
 ## Prerequisites
 
@@ -20,6 +20,7 @@ The numerical methods that turn continuous mathematics into reliable computation
 - **Trefethen & Bau, *Numerical Linear Algebra*** — the elegant, rigorous spine.
 - **Heath, *Scientific Computing: An Introductory Survey*** — the broad foundations.
 - **LeVeque, *Finite Difference Methods for Ordinary and Partial Differential Equations*** — the PDE/stability track.
+- **Johnson, *Numerical Solution of Partial Differential Equations by the Finite Element Method*** — for the finite-element unit.
 - **Nocedal & Wright, *Numerical Optimization*** — the optimization unit.
 - **MIT 18.335 (Introduction to Numerical Methods)** and **Stanford CME 302/306** — lectures and problem sets.
 

@@ -1,12 +1,12 @@
 # Computer Vision
 
-Making machines see: the geometric and signal-processing foundations, the deep-learning revolution in recognition, the architectures (CNNs, vision transformers) and tasks (detection, segmentation, depth, pose), and the generative and multimodal frontier. The discipline balances classical geometry — which still underpins 3D and SLAM — against learned representations that dominate perception.
+Making machines see: the geometric and signal-processing foundations, the deep-learning revolution in recognition, the architectures (CNNs, vision transformers) and tasks (detection, segmentation, depth, pose), and the generative and multimodal frontier. The discipline balances classical geometry — which still underpins 3D reconstruction and the SLAM systems covered in [Robotics and Control](robotics-control.md) — against learned representations that dominate perception.
 
 ## Learning objectives
 
 - Reason about image formation, camera models, and multi-view geometry (epipolar geometry, homographies, structure from motion).
 - Explain convolutional architectures and vision transformers, and the inductive biases that make each suited to images.
-- Formulate and evaluate core tasks: classification, detection, semantic/instance segmentation, depth estimation, and pose.
+- Formulate and evaluate core tasks: classification, detection, semantic/instance segmentation, depth estimation, pose, and motion (optical flow and tracking).
 - Reason about self-supervised and multimodal learning (contrastive methods, CLIP, masked autoencoders) as the modern representation paradigm.
 - Explain modern generative vision (diffusion models) and assess robustness, distribution shift, and dataset bias.
 
@@ -24,9 +24,10 @@ Making machines see: the geometric and signal-processing foundations, the deep-l
 
 ## Seminal papers
 
+- Lucas & Kanade (1981), "An Iterative Image Registration Technique with an Application to Stereo Vision" — the optical-flow/tracking foundation.
 - Lowe (2004), "Distinctive Image Features from Scale-Invariant Keypoints" (SIFT).
 - Krizhevsky, Sutskever & Hinton (2012), "ImageNet Classification with Deep Convolutional Neural Networks" (AlexNet).
-- He et al. (2016), "Deep Residual Learning for Image Recognition" (ResNet).
+- He et al. (2015), "Deep Residual Learning for Image Recognition" (ResNet).
 - Ren et al. (2015), "Faster R-CNN," and Redmon et al. (2016), "You Only Look Once."
 - Ronneberger et al. (2015), "U-Net: Convolutional Networks for Biomedical Image Segmentation."
 - Dosovitskiy et al. (2021), "An Image Is Worth 16×16 Words" (ViT).

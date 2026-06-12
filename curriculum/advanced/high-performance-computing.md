@@ -14,6 +14,7 @@ Extracting maximum performance from parallel hardware: the parallel programming 
 
 - [Computer Architecture](../core/computer-architecture.md) — memory hierarchy, parallelism, ILP.
 - [Mathematics for CS Research](../core/math-for-cs.md) — numerical linear algebra basics.
+- Note: GPU programming and the roofline model are shared ground with [Deep Learning Systems](deep-learning-systems.md) — do those units once; the distinct ground here is MPI, numerical kernels, and scaling.
 
 ## Primary resources
 
@@ -31,7 +32,7 @@ Extracting maximum performance from parallel hardware: the parallel programming 
 - Valiant (1990), "A Bridging Model for Parallel Computation" (BSP).
 - Blumofe & Leiserson (1999), "Scheduling Multithreaded Computations by Work Stealing" (Cilk).
 - Demmel et al. (2012), "Communication-Optimal Parallel and Sequential QR and LU Factorizations."
-- Dongarra et al., the LINPACK/LAPACK and Top500 line of work.
+- Dongarra, Luszczek & Petitet (2003), "The LINPACK Benchmark: Past, Present and Future."
 - Cooley & Tukey (1965), "An Algorithm for the Machine Calculation of Complex Fourier Series" (FFT).
 
 ## Assignments

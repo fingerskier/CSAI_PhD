@@ -24,16 +24,25 @@ git config --global pull.rebase false   # see "Merge, never rebase" below
 
 (`true` is the Unix command that always succeeds, which leaves the file unchanged on merge.)
 
+Verify it took — this should print `true`:
+
+```bash
+git config --get merge.ours.driver
+```
+
+This config is **per-machine, not in the repo**: it does not travel with a clone. Re-run it on every machine you work from, or the protection is silently absent.
+
 If you skip this step, nothing is lost — merges from upstream just fall back to normal conflict markers on files you've both edited, instead of quietly keeping your version.
 
 ## 3. Track upstream for curriculum updates
 
 ```bash
 git remote add upstream https://github.com/fingerskier/CSAI_PhD.git
-git remote -v   # confirms: origin (yours) + upstream (canonical)
+git remote set-url --push upstream DISABLE   # block accidental pushes to the canonical template
+git remote -v   # confirms: origin (yours) + upstream (canonical, push → DISABLE)
 ```
 
-You will never push to `upstream` — it's read-only from your side.
+You will never push to `upstream` — it's read-only from your side. The `set-url --push ... DISABLE` line enforces this: a stray `git push upstream` now fails instead of writing to the template.
 
 ## 4. Directory ownership
 
@@ -72,6 +81,8 @@ When upstream publishes new modules, papers, or templates:
 git fetch upstream
 git merge upstream/main
 ```
+
+> **First sync only:** template copies start from a *fresh* history (GitHub's "Use this template" does not share commits with the source, unlike a fork), so your very first merge aborts with `fatal: refusing to merge unrelated histories`. Run it once as `git merge upstream/main --allow-unrelated-histories`. That links the histories; every subsequent sync uses the plain command above.
 
 The `merge=ours` rules in `.gitattributes` protect your filled-in work from being clobbered if upstream happens to touch the same paths.
 

@@ -81,8 +81,10 @@ Your workspace is a copy of this template, with this repo tracked as the `upstre
 
 ```bash
 git remote add upstream https://github.com/fingerskier/CSAI_PhD.git
+git remote set-url --push upstream DISABLE    # block accidental pushes to the template
 git config --global merge.ours.driver true   # activate the merge=ours rules in .gitattributes
 git config --global pull.rebase false        # see the warning below
+git config --get merge.ours.driver           # verify: prints "true" (per-machine, not in the repo)
 ```
 
 When upstream publishes new modules, templates, or resources, pull them in with a merge:
@@ -91,6 +93,8 @@ When upstream publishes new modules, templates, or resources, pull them in with 
 git fetch upstream
 git merge upstream/main
 ```
+
+> **First sync only:** a template copy starts from a fresh history, so your first merge fails with `refusing to merge unrelated histories`. Run it once as `git merge upstream/main --allow-unrelated-histories`; subsequent syncs use the plain command above.
 
 The `merge=ours` rules in `.gitattributes` keep your filled-in work in `research/`, `milestones/`, and `assessments/` from being clobbered if upstream touches the same paths.
 

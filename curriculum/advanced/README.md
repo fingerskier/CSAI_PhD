@@ -25,6 +25,14 @@ Advanced modules deepen research maturity after the core phase. Unlike the core 
 14. [Human-Computer Interaction](human-computer-interaction.md)
 15. [Scientific Computing](scientific-computing.md)
 
+
+## Selection rules
+
+- Choose **2–4 primary advanced modules** that directly support the research direction named in your specialization plan. Add at most **1–2 adjacent modules** for breadth or missing prerequisites.
+- Before starting an advanced module, write a one-page rationale: target research questions, expected methods, target venues/communities, prerequisite risks, and the artifact you will produce.
+- Prefer depth over catalog completion. An advanced module is successful when it produces a replication, benchmark, theorem/proof portfolio, system, or survey that changes what research questions you can credibly pursue.
+- If a needed area is absent (for example quantum computing, computational biology, graphics, economics/game theory, information theory, or AI safety as a standalone topic), create a new module in this directory using the same structure as the existing files.
+
 Each module follows the same structure as the [core modules](../core/README.md): learning objectives, prerequisites, primary resources, seminal papers, assignments (problem sets, projects, and a paper critique), an AI study loop, and a mastery checklist.
 
 ## How to work an advanced module

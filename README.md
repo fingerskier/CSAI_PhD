@@ -67,7 +67,7 @@ Two subagents back the adversarial workflows: `examiner` (committee-style oral q
 ## How to use this repo
 
 1. Create your own workspace from this template — see [`WORKSPACE_SETUP.md`](WORKSPACE_SETUP.md).
-2. Start with [`milestones/roadmap.md`](milestones/roadmap.md).
+2. Start with [`milestones/roadmap.md`](milestones/roadmap.md) and the [`curriculum guide and gap map`](curriculum/README.md).
 3. Complete the diagnostic in [`assessments/diagnostic.md`](assessments/diagnostic.md).
 4. Work through core modules in [`curriculum/core/`](curriculum/core/).
 5. In Phase 2, pick advanced modules from [`curriculum/advanced/`](curriculum/advanced/) and a track from [`curriculum/specializations/`](curriculum/specializations/).

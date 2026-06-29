@@ -101,6 +101,9 @@ Use these thresholds before advancing:
 - Programming languages and compilers
 - Computer architecture
 - Theory of computation
+- Statistics and experimental design for CS research
+- Responsible computing, ethics, and research risk
+- Research software engineering and reproducibility
 
 ### Execution model by module
 
@@ -108,8 +111,9 @@ For each core module:
 
 1. **Foundation pass:** textbook + lecture coverage map.
 2. **Problem pass:** weekly proof/problem sets with timed attempts.
-3. **Build pass:** one implementation mini-project.
-4. **Defense pass:** oral exam simulation and written synthesis.
+3. **Build pass:** one implementation mini-project with tests, environment capture, and reproducibility notes.
+4. **Evidence pass:** statistical/measurement review for empirical claims and responsible-computing risk review for released artifacts.
+5. **Defense pass:** oral exam simulation and written synthesis.
 
 ### AI prompts for Phase 1
 
@@ -126,7 +130,8 @@ For each core module:
 ### Deliverables
 
 - Course notes for each core module.
-- 6–10 substantial programming assignments or mini-projects.
+- 6–10 substantial programming assignments or mini-projects, each with tests and reproducibility instructions.
+- At least 2 empirical-design audits and 2 responsible-computing risk reviews attached to projects or paper critiques.
 - Breadth exam covering core areas.
 
 ### Exit criteria

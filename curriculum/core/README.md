@@ -14,6 +14,9 @@ Complete these modules to establish graduate-level breadth.
 8. [Computer Architecture](computer-architecture.md)
 9. [Theory of Computation](theory-of-computation.md)
 10. [Research Methods](research-methods.md)
+11. [Statistics and Experimental Design for CS Research](statistics-experimental-design.md)
+12. [Responsible Computing, Ethics, and Research Risk](responsible-computing.md)
+13. [Research Software Engineering and Reproducibility](research-software-engineering.md)
 
 Each module contains:
 
@@ -29,10 +32,10 @@ Each module contains:
 
 ## Scope and sequencing notes
 
-- **Required breadth:** these ten modules are the default Phase 1 requirement. A learner may skip or compress a module only after passing its mastery checklist under timed/oral conditions.
-- **Recommended order:** start with Mathematics for CS Research, Algorithms and Complexity, and Research Methods; then interleave the systems sequence (Architecture → Operating Systems → Distributed Systems/Databases) with Programming Languages and Machine Learning according to specialization needs.
+- **Required breadth:** these thirteen modules are the default Phase 1 requirement. A learner may skip or compress a module only after passing its mastery checklist under timed/oral conditions.
+- **Recommended order:** start with Mathematics for CS Research, Algorithms and Complexity, Research Methods, Statistics and Experimental Design, and Research Software Engineering; then interleave the systems sequence (Architecture → Operating Systems → Distributed Systems/Databases) with Programming Languages and Machine Learning according to specialization needs.
+- **Cross-cutting required modules:** Responsible Computing, Statistics and Experimental Design, and Research Software Engineering should be revisited during every project, replication, and proposal rather than treated as one-time readings.
 - **Minimum completion evidence:** for each module, leave a coverage map, three spaced assessment attempts, one inspectable artifact, one paper critique, and an oral-defense summary. Reading alone is not completion.
-- **Common Phase 1 gap:** statistics and experimental design are distributed across math, ML, and research methods rather than isolated in one module. If your intended work is empirical, add targeted practice in uncertainty estimation, significance/power, causal claims, benchmark design, and multiple-comparison control.
 
 ## How to work a module
 

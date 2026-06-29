@@ -15,8 +15,10 @@ Each track lists the supporting modules from the [advanced curriculum](../advanc
 
 A specialization should include:
 
-- 50–100 paper reading list.
-- 2 paper replications.
-- 1 survey article.
-- 1 original research proposal.
-- 1 dissertation-style capstone project.
+- **A scoped reading list:** 50–100 papers organized by subtopic, venue, method, and chronology. Every deeply read paper should have a claim-evidence map; do not count shallow bibliography entries as completed readings.
+- **Two replications:** at least one should reproduce a central result from a clean environment; the second may be a negative replication, robustness study, or extension if the methodology is explicit.
+- **One survey article:** synthesize competing assumptions, methods, benchmarks, and open problems rather than summarizing papers one by one.
+- **One original research proposal:** include problem framing, novelty claim, related-work delta, method, evaluation plan, risks, and explicit stop/continue criteria.
+- **One dissertation-style capstone project:** a coherent evidence package with artifact, manuscript, defense deck, limitations, and reproducibility instructions.
+
+Before committing to a track, write a one-page specialization plan that names the research community you are aiming at, likely publication venues, expected artifact type, missing prerequisites, and the advanced modules that close those gaps.

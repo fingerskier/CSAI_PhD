@@ -26,6 +26,14 @@ Each module contains:
 - Mastery checklist — the concrete bar for the breadth exam
 - Where next — the advanced modules that continue the thread after the core
 
+
+## Scope and sequencing notes
+
+- **Required breadth:** these ten modules are the default Phase 1 requirement. A learner may skip or compress a module only after passing its mastery checklist under timed/oral conditions.
+- **Recommended order:** start with Mathematics for CS Research, Algorithms and Complexity, and Research Methods; then interleave the systems sequence (Architecture → Operating Systems → Distributed Systems/Databases) with Programming Languages and Machine Learning according to specialization needs.
+- **Minimum completion evidence:** for each module, leave a coverage map, three spaced assessment attempts, one inspectable artifact, one paper critique, and an oral-defense summary. Reading alone is not completion.
+- **Common Phase 1 gap:** statistics and experimental design are distributed across math, ML, and research methods rather than isolated in one module. If your intended work is empirical, add targeted practice in uncertainty estimation, significance/power, causal claims, benchmark design, and multiple-comparison control.
+
 ## How to work a module
 
 Follow the four-pass model from [`milestones/roadmap.md`](../../milestones/roadmap.md): a **foundation pass** through the primary resources, a **problem pass** with weekly timed sets (`/quiz`), a **build pass** through the implementation project, and a **defense pass** (`/oral-exam`) against the mastery checklist. Advance when you meet the roadmap's thresholds — ≥85% across three spaced attempts, plus one strong artifact.
